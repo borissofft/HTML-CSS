@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: #ebedeb;
+  }
+
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(148, 151, 148);
+  }
+
+blockquote {
+    border-left: rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p:last-child {
+  text-align: right;
+}
