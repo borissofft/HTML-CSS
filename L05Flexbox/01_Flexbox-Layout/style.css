@@ -3,18 +3,21 @@ body {
     padding: 5rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 2em;
 }
 
-.item {
+header, main, aside, footer {
     background-color: #FFF;
     padding: 2rem;
     border-radius: 0.4em;
     color: #000;
-    margin: 0.5rem;
+    min-height: 15em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
 }
 
 header, footer {
     flex-basis: 100%;
+    min-height: 5em;
 }
 
 main {
