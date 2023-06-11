@@ -24,9 +24,14 @@ body {
     overflow: hidden;
     border-radius: 0.5em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+    transition: width 0.4s ease-in-out;
 }
 
-.card.active {
+/* .card.active {
+    width: 30em;
+} */
+
+.card:hover {
     width: 30em;
 }
 
