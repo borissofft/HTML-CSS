@@ -1,0 +1,25 @@
+/* @import 'https://use.fontawesome.com/releases/v5.14.0/css/all.css'; */
+@import 'https://use.fontawesome.com/releases/v6.1.2/css/all.css';
+
+
+body {
+    background: #fff;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+ul li a {
+    border-radius: 50%;
+    background: #eee;
+    color: #000;
+}
+
+a:hover {
+    color: blue;
+}
