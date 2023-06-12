@@ -14,7 +14,11 @@ body {
 
 .card {
     background: rgb(255, 255, 255);
-    width: 26em;
+    width: 40%;
+    border: 1px solid #DDD;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
 }
 
 .card .content {
