@@ -1,0 +1,37 @@
+@import 'https://use.fontawesome.com/releases/v6.1.0/css/all.css';
+
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(207, 203, 203);
+}
+
+.login {
+    display: inline-block;
+    width: 6%;
+    border: 0.5px solid grey;
+    background: #fff;
+    border-radius: 0.2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid grey;
+}
+
+.username {
+    display: flex;
+}
+
+.password {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    width: 6%;
+}
