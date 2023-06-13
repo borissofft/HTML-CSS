@@ -49,6 +49,7 @@
     display: none;
 }
 
+/* This will affect only mobile devices because they don't have hover! Won't affect desktops even if you make the browser box smaller */
 @media (hover: none) {
     .main-nav ul {
         display: none;
@@ -81,6 +82,7 @@
     }
 }
 
+/* If we have hover(desktop), hide the button */
 @media (hover: hover) {
     .nav-toggle-btn {
         display: none;
