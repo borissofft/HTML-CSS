@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > * {
+    background: lightblue;
+    padding: 2em;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "aside aside"
+    "footer footer";
+}
+
+@media (width > 800px) {
+    body {
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer";
+    }
+}
+
+header { grid-area: header; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
