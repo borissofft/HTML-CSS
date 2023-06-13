@@ -1,0 +1,17 @@
+article section p > img {
+    display: block;
+    border: 3px solid #000;
+    background: #fff;
+    padding: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+article img.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+article img.align-right {
+    float: right;
+    margin: 0 1em 1em 0;
+}

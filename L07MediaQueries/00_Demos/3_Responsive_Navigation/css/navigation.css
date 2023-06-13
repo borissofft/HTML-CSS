@@ -1,0 +1,88 @@
+.main-nav {
+    margin-left: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav a {
+    padding: 0.5em 1em;
+    color: #090;
+}
+
+/* Here we hide the checkbox but it is still active */
+#nav-toggle {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* The checkbox is selected */
+#nav-toggle:checked + .site-header {
+    border-color: red;
+}
+
+.nav-toggle-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1em;
+}
+
+.nav-toggle-btn svg {
+    display: block;
+    width: 2em;
+}
+
+.nav-toggle-btn .label {
+    display: none;
+}
+
+.nav-toggle-btn .close {
+    display: none;
+}
+
+@media (hover: none) {
+    .main-nav ul {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 2em;
+        padding-top: 6em;
+    }
+
+    .main-nav li {
+        text-align: center;
+        padding: 1em;
+    }
+
+    #nav-toggle:checked + .site-header .nav-toggle-btn {
+        z-index: 1000;
+    }
+
+    #nav-toggle:checked + .site-header .nav-toggle-btn .open {
+        display: none;
+    }
+
+    #nav-toggle:checked + .site-header .nav-toggle-btn .close {
+        display: block;
+    }
+
+    #nav-toggle:checked + .site-header .main-nav ul {
+        display: block;
+    }
+}
+
+@media (hover: hover) {
+    .nav-toggle-btn {
+        display: none;
+    }
+}
