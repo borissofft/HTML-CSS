@@ -1,11 +1,11 @@
 .section-banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
-    padding-top: 30em;
+    padding-top: 10em;
+    padding-bottom: 16em;
 }
 
 .section-banner h2 {
@@ -25,4 +25,85 @@
     color: #fff;
     border-radius: 0.2em;
     padding: 0.5em 1em;
+}
+
+.section-coaches,
+.section-welcome {
+    padding: 2em 5em;
+}
+
+[class*="section-"] header h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+[class*="section-"] header h2::after {
+    display: block;
+    content: '';
+    width: 1.5em;
+    height: 3px;
+    border: 2px;
+    border-radius: 2px;
+    background: #d01919;
+    margin: 1em auto;
+}
+
+.section-welcome {
+    background: #fff;
+    min-height: 20em;
+}
+
+.section-coaches {
+    background: #efefef;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.columns img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.columns li {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.columns li,
+.columns li span {
+    display: block;
+}
+
+.columns .title {
+    color: #d12d38;
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+.columns .name {
+    font-weight: bold;
+}
+
+.columns .desc {
+    color: #727d8d;
+    line-height: 1.2;
+}
+
+.section-welcome .columns img {
+    width: 3em;
+    margin: 0 auto;
+}
+
+.section-coaches .columns img {
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+}
+
+.section-coaches .columns desc {
+    color: #cac8cd;
 }
