@@ -1,0 +1,17 @@
+body {
+    background: url(../image/fitness-main.jpg);
+    background-size: 120% auto;
+    background-position: center -26em;
+    background-repeat: no-repeat;
+}
+
+.site {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer {
+    margin-top: auto;
+}
+

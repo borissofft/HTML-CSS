@@ -1,0 +1,35 @@
+/* Header */
+.top-bar {
+    background: #d01919;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+}
+
+.top-bar p {
+    padding: 0;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials li,
+.socials a {
+    display: block;
+}
+
+.socials li {
+    padding: 0 0.5em;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header .site-title {
+    display: none;
+}
