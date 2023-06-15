@@ -12,6 +12,14 @@
     padding: 0;
 }
 
+.top-bar ul {
+    padding: 0;
+}
+
+.top-bar span {
+    display: none;
+}
+
 .socials {
     display: flex;
 }
