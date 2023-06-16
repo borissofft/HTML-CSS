@@ -9,9 +9,15 @@
     --gray-black: #222222;
 }
 
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body, input, textarea {
+    font: inherit;
+}
 /* Global styles */
 body {
-    font-family: 'Raleway', sans-serif;
     color: var(--gray-black);
 }
 
