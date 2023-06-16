@@ -1,0 +1,102 @@
+@import 'https://use.fontawesome.com/releases/v6.4.0/css/all.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+:root {
+    --gray-light: #efefef;
+    --gray-dark: #909090;
+    --gray-black: #222222;
+}
+
+/* Global styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--gray-black);
+}
+
+.page-section {
+    max-width: 1880px;
+    margin: 1.5rem auto;
+    height: calc(100vh - 1.5rem);
+    background: var(--gray-light);
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    gap: 2rem;
+}
+
+.page-section .title {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+}
+
+.page-section .desc {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.page-section .title .bolded {
+    font-weight: bold;
+}
+
+.page-section .section-info {
+    flex: 0 0 50%;
+}
+
+.page-section .section-img {
+    flex: 0 1 35%;
+}
+
+.page-section .divider.vertical {
+    height: 6rem;
+    width: 1px;
+    background: var(--gray-black);
+}
+
+/* Hero */
+#hero.page-section {
+    position: relative;
+}
+
+#hero .navigation {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+#hero .hero-img {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+
+/* Camera */
+#camera .socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#camera .socials .social {
+    list-style: none;
+    width: 3rem;
+    height: 3rem;
+    background: var(--gray-dark);
+    color: #fff;
+    border-radius: 3px;
+    position: relative;
+}
+
+#camera .socials .social i {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
