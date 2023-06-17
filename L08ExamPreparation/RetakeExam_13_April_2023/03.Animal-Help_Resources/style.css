@@ -265,7 +265,7 @@ p, ul, ol, dl {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4em;
+    padding: 4em 4em 6em 4em;
 }
 
 .animals header {
@@ -292,4 +292,35 @@ p, ul, ol, dl {
     display: block;
     width: 20%;
     height: auto;
+}
+
+/* How */
+.how {
+    max-width: 1980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    margin: 0 17em;
+}
+
+.how .step {
+    border: 1px solid #f0f0f0;
+    border-radius: 1.5em;
+    
+}
+
+.step :nth-child(1) {
+    font-size: 1.6em;
+    font-weight: 600;
+    background: #85dcff;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+    padding: 1em;
+}
+
+.step :nth-child(2) {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 1em;
 }
