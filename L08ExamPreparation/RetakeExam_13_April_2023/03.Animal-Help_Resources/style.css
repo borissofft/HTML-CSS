@@ -330,7 +330,7 @@ p, ul, ol, dl {
     display: flex;
     flex-direction: row;
     gap: 6em;
-    margin: 8em auto;
+    margin: 8em auto 3em auto;
 }
 
 .send img {
@@ -376,4 +376,29 @@ p, ul, ol, dl {
     width: 280px;
 }
 
-/*  */
+/* Footer */
+.site-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6em;
+}
+
+.site-footer .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.site-footer p {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.socials i {
+    font-size: 40px;
+}
