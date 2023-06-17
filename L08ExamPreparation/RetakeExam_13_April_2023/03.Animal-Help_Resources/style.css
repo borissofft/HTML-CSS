@@ -16,32 +16,61 @@ html {
     font: 16px/1.5 'Arial', sans-serif;
 }
 
-body, input, textarea {
+body,
+input,
+textarea {
     font: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0.5em;
     line-height: 1.2;
 }
 
-h1 { font-size: 2.8em; }
-h2 { font-size: 2.2em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.4em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1em; }
+h1 {
+    font-size: 2.8em;
+}
 
-p, ul, ol, dl {
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+p,
+ul,
+ol,
+dl {
     padding-bottom: 1.5em;
 }
 
 /* Header */
 .site-header {
+    max-width: 1980px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2em 8em;
+    padding: 2em 5em 0.7em 8em;
+    background: #fff;
 }
 
 .main-nav {
@@ -64,4 +93,80 @@ p, ul, ol, dl {
 
 .main-nav a {
     text-decoration: none;
+    color: #000;
+    font-size: 1.8em;
+    font-weight: bold;
 }
+
+/* Banner */
+.section-banner {
+    background: #85dcff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner-info h2 {
+    /* max-width: 800px; */
+    font-size: 2.4em;
+}
+
+.baner-info .info {
+    /* max-width: 600px; */
+    font-size: 1.4em;
+}
+
+.baner-info {
+    max-width: 800px;
+    display: grid;
+    margin: 12em auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 120px 120px;
+    align-items: center;
+    grid-template-areas:
+        "diff diff"
+        "info info"
+        "btn1 btn2";    
+}
+
+.text { grid-area: diff; }
+.info { grid-area: info; }
+.btn1 { grid-area: btn1; }
+.btn2 { grid-area: btn2; }
+
+.section-banner .btn1 {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0.75em 2em;
+    width: 16em;
+}
+
+.section-banner .btn2 {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 0.75em 2em;
+    width: 18em;
+}
+
+
+.section-banner img {
+    display: block;
+    width: 40%;
+    height: auto;
+    padding-right: 5em;
+}
+
+/* */
