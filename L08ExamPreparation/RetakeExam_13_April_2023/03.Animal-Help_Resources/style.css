@@ -202,12 +202,12 @@ p, ul, ol, dl {
 
 /* Mission */
 .mission {
-    height: 880px;
+    max-height: 880px;
     background: #85dcff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8em;
+    padding: 7em 7em;
 }
 
 .mission h2 {
@@ -218,26 +218,37 @@ p, ul, ol, dl {
 .missions {
     display: flex;
     justify-content: center;
-    /* gap: 1em; */
-}
-
-.mission-1,
-.mission-2 {
-    display: flex;
+    gap: 5em;
 }
 
 .mission-1 {
-    width: 45%;
+    width: 30%;
 }
 
 .mission-2 {
-    width: 45%;
+    width: 30%;
 }
 
 .missions li {
+    list-style: none;
     font-size: 1.8em;
     padding-bottom: 1.5em;
+    position: relative;
+    margin-left: 2.5rem;
 }
+
+.mission li::before {
+    display: inline-block;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-top: -0.4rem;
+    margin-left:  -2.5rem;
+    position: absolute;
+    content: ' '
+  }
 
 .mission a {
     text-decoration: none;
