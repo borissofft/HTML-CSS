@@ -137,4 +137,65 @@ p, ul, ol, dl {
     padding-right: 5em;
 }
 
-/* */
+/* We are */
+.section-we-are {
+    max-height: 900px;
+    background: #fff;
+    padding: 2em 7em;
+}
+
+.section-we-are header {
+    text-align: center;
+}
+
+.section-we-are header h3 {
+    padding-bottom: 1em;
+}
+
+.section-we-are header p {
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.section-we-are .columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.columns li {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.columns li,
+.columns li span {
+    display: block;
+}
+
+.columns .media i {
+    display: block;
+    color: #85dcff;
+    font-size: 11em;
+    padding-bottom: 0.25em;
+}
+
+.columns .title {
+    font-size: 1.8em;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.columns .desc {
+    font-size: 1.4em;
+}
