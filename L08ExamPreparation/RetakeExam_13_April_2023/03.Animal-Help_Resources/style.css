@@ -307,7 +307,6 @@ p, ul, ol, dl {
 .how .step {
     border: 1px solid #f0f0f0;
     border-radius: 1.5em;
-    
 }
 
 .step :nth-child(1) {
@@ -324,3 +323,57 @@ p, ul, ol, dl {
     font-weight: 600;
     padding: 1em;
 }
+
+/* Send */
+.send {
+    max-width: 1980px;
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+    margin: 8em auto;
+}
+
+.send img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.send .ps-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.ps-info h2 {
+    font-size: 2.5em;
+}
+
+.ps-info p {
+    font-size: 1.4em;
+}
+
+.ps-info input {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 1em 1em;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.ps-info button {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 1em 3em;
+    margin: 1em 0;
+    width: 280px;
+}
+
+/*  */
