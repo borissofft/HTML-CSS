@@ -199,3 +199,52 @@ p, ul, ol, dl {
 .columns .desc {
     font-size: 1.4em;
 }
+
+/* Mission */
+.mission {
+    height: 880px;
+    background: #85dcff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em;
+}
+
+.mission h2 {
+    font-size: 2.6em;
+    padding-bottom: 1.5em;
+}
+
+.missions {
+    display: flex;
+    justify-content: center;
+    /* gap: 1em; */
+}
+
+.mission-1,
+.mission-2 {
+    display: flex;
+}
+
+.mission-1 {
+    width: 45%;
+}
+
+.mission-2 {
+    width: 45%;
+}
+
+.missions li {
+    font-size: 1.8em;
+    padding-bottom: 1.5em;
+}
+
+.mission a {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 1em 7em;
+}
+
