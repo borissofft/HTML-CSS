@@ -1,0 +1,17 @@
+@media (width <= 600px) {
+
+    .home-hero {
+        flex-direction: column;
+    }
+
+    .home-hero-text-container {
+        order: 2;
+    }
+ 
+    .home-image1 {
+        order: 1;
+    }
+
+    
+
+}
