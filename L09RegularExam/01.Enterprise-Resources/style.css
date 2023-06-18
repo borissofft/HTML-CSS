@@ -99,15 +99,19 @@ p, ul, ol, dl {
     color: #464a4f;
 }
 
-
-/* .info {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+.person {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
-.info .person {
-    display: block;
-    width: 3em;
-    height: 3em;
-}  */
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 2em;
+}
