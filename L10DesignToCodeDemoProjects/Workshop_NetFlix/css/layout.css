@@ -1,18 +1,39 @@
-.site {
-    border: 5px solid red;
-    padding: 2em;
+.site-header .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+
+.site-header a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+.site-header a.login {
+    background: #e50914;
+    color: #fff;
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+}
+
+.site-header.section,
+.section-banner.section {
+    border: none;
 }
 
 .section {
-    border: 5px solid black;
-}
-
-.section + .section {
-    margin-top: 2em;
+    background: #000;
+    color: #fff;
+    border-top: 5px solid rgba(255, 255, 255, 0.15);
 }
 
 .section-container {
     max-width: 980px;
     margin: 0 auto;
-    background: #eee;
 }
+
