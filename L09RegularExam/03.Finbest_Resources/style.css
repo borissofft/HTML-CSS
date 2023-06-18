@@ -35,3 +35,62 @@ h6 { font-size: 1em; }
 p, ul, ol, dl {
     padding-bottom: 1.5em;
 }
+
+.site {
+    max-width: 1980px;
+    display: flex;
+}
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
+
+
+
+
+.login {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.login li,
+.login a {
+    display: block;
+}
+
+.login a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
