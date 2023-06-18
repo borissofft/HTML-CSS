@@ -54,7 +54,14 @@
         height: 270px;
     }
 
+    .home-features {
+        height: 1800px;
+    }
 
+    .home-stats {
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-rows: 300px 300px 300px 300px;
+    }
 
     
 }
