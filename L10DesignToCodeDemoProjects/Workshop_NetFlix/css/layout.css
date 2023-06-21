@@ -87,7 +87,14 @@ body {
 }
 
 .section-zigzag.media-left .section-container .media {
-    order: 1;
+    order: -1;
+}
+
+.section-zigzag .media {
+    /* border: 1px solid #ccc;
+    transform: translateY(-20%); */
+    position: relative;
+    top: -5em;
 }
 
 .section-faq h2 {

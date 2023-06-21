@@ -1,0 +1,9 @@
+@media (width < 600px) {
+
+    .section-zigzag .section-container {
+        flex-direction: column;
+        padding-inline: 3em;
+        text-align: center;
+    }
+
+} 
